@@ -27,6 +27,6 @@ animesjc32@gmail.com
 
 No primeiro envio, confirme o e-mail recebido pelo FormSubmit.
 
-## Personalização
+## Convite Discord
 
-Substitua https://discord.com/ pelo convite real do servidor ABYSS.
+https://discord.gg/5RWP9cwHf
