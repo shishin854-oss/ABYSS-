@@ -13,6 +13,7 @@ nav.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     nav.classList.remove('open');
     menuToggle.textContent = '☰';
+    menuToggle.setAttribute('aria-expanded', 'false');
   });
 });
 
