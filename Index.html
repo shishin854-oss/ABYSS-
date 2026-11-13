@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090d">
+  <title>ABYSS — Beyond the surface</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<header class="topbar">
+  <a class="brand" href="#inicio"><span class="brand-mark">A</span> ABYSS<span class="dot">.</span></a>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav id="nav">
+    <a href="#sobre">O servidor</a>
+    <a href="#staff">Staff</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a href="#denuncias">Denúncias</a>
+    <a class="nav-cta" href="https://discord.com/" target="_blank">Entrar no Discord ↗</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <div class="eyebrow">◉ COMUNIDADE • CONEXÕES • ABYSS</div>
+    <h1>VÁ ALÉM<br>DA <span>SUPERFÍCIE.</span></h1>
+    <p class="hero-copy">Um lugar para encontrar pessoas, trocar ideias, participar de conversas e construir sua própria presença. O fundo é só o começo.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="https://discord.com/" target="_blank">Conhecer o ABYSS ↗</a>
+      <a class="button button-ghost" href="#sobre">Explorar ↓</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="orb orb-one"></div>
+    <div class="ring ring-one"></div>
+    <div class="art-word">ABYSS</div>
+    <div class="art-caption">THE DEEPER YOU GO<br>THE MORE YOU DISCOVER.</div>
+  </div>
+</section>
+
+<section class="section" id="sobre">
+  <div class="section-kicker">01 — SOBRE NÓS</div>
+  <div class="section-grid">
+    <h2>Não é só mais<br>um servidor.</h2>
+    <div class="about-text">
+      <p>O <strong>ABYSS</strong> é uma comunidade no Discord feita para quem procura um espaço para conversar, conhecer gente nova e compartilhar interesses.</p>
+      <p>A proposta é simples: liberdade para ser você, respeito com quem está ao redor e uma comunidade que cresce com a participação de todos.</p>
+    </div>
+  </div>
+  <div class="feature-grid">
+    <article class="feature"><span>01</span><h3>Conexões</h3><p>Conheça pessoas e faça novas amizades.</p></article>
+    <article class="feature"><span>02</span><h3>Comunidade</h3><p>Participe das conversas e atividades.</p></article>
+    <article class="feature"><span>03</span><h3>Respeito</h3><p>Um espaço melhor depende de todos.</p></article>
+  </div>
+</section>
+
+<section class="dark-band">
+  <div><div class="section-kicker">YOUR PLACE IN THE DEEP</div>
+  <h2>Encontre seu espaço.<br><span>Faça parte da história.</span></h2></div>
+  <a class="button button-light" href="https://discord.com/" target="_blank">Acessar comunidade ↗</a>
+</section>
+
+<section class="section staff-section" id="staff">
+  <div class="section-kicker">02 — FAÇA PARTE DA EQUIPE</div>
+  <div class="section-grid">
+    <h2>O ABYSS também<br>é construído por você.</h2>
+    <div class="about-text">
+      <p>Quer ajudar a manter a comunidade organizada? Envie sua candidatura para a equipe.</p>
+      <p>As candidaturas serão analisadas pela administração.</p>
+    </div>
+  </div>
+
+  <form class="form-card" action="https://formsubmit.co/animesjc32@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Candidatura Staff ABYSS">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="Tipo" value="Candidatura Staff">
+
+    <div class="form-heading"><div><span class="form-tag">CANDIDATURA / 01</span><h3>Quero fazer parte.</h3></div></div>
+
+    <div class="form-grid">
+      <label>Nome ou apelido<input name="Nome" required></label>
+      <label>Usuário Discord<input name="Discord" required></label>
+      <label>Idade<input type="number" name="Idade" required></label>
+      <label>Área de interesse
+        <select name="Área" required>
+          <option value="">Selecione</option>
+          <option>Moderação</option>
+          <option>Suporte</option>
+          <option>Eventos</option>
+          <option>Organização</option>
+        </select>
+      </label>
+      <label class="full">Por que quer entrar para a Staff?
+        <textarea name="Motivação" required></textarea>
+      </label>
+      <label class="full">Disponibilidade
+        <input name="Disponibilidade" required>
+      </label>
+    </div>
+    <button class="button button-primary submit" type="submit">Enviar candidatura ↗</button>
+  </form>
+</section>
+
+<section class="section" id="duvidas">
+  <div class="section-kicker">03 — CENTRAL DE AJUDA</div>
+  <div class="section-grid">
+    <h2>Ficou com<br>alguma dúvida?</h2>
+    <div class="about-text"><p>Envie sua mensagem diretamente para a administração do ABYSS.</p></div>
+  </div>
+
+  <form class="form-card" action="https://formsubmit.co/animesjc32@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Dúvida — ABYSS">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="Tipo" value="Dúvida">
+
+    <div class="form-heading"><div><span class="form-tag">CONTATO / 02</span><h3>Envie sua dúvida.</h3></div></div>
+    <div class="form-grid">
+      <label>Nome<input name="Nome" required></label>
+      <label>Discord<input name="Discord"></label>
+      <label class="full">E-mail para retorno<input type="email" name="Email"></label>
+      <label class="full">Mensagem<textarea name="Mensagem" required></textarea></label>
+    </div>
+    <button class="button button-primary submit" type="submit">Enviar mensagem ↗</button>
+  </form>
+</section>
+
+<section class="report-section" id="denuncias">
+  <div class="report-inner">
+    <div class="section-kicker">04 — SEGURANÇA E CONFIANÇA</div>
+    <h2>Algo não está<br><span>certo?</span></h2>
+    <p>Denuncie comportamentos que violem as regras do servidor. Descreva o ocorrido com clareza.</p>
+
+    <form class="report-form" action="https://formsubmit.co/animesjc32@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Denúncia — ABYSS">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="Tipo" value="Denúncia">
+
+      <label>Seu nome (opcional)<input name="Nome"></label>
+      <label>Usuário denunciado<input name="Denunciado"></label>
+      <label>O que aconteceu?<textarea name="Descrição" required></textarea></label>
+      <label>Contato (opcional)<input name="Contato"></label>
+      <button class="button button-light submit" type="submit">Enviar denúncia ↗</button>
+    </form>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="section-kicker">05 — PERGUNTAS FREQUENTES</div>
+  <h2>Respostas rápidas.</h2>
+  <details><summary>Como entrar no ABYSS? ＋</summary><p>Clique no botão de convite do Discord.</p></details>
+  <details><summary>Como entrar para a Staff? ＋</summary><p>Preencha o formulário de candidatura.</p></details>
+  <details><summary>Como fazer uma denúncia? ＋</summary><p>Utilize o formulário de denúncias.</p></details>
+  <details><summary>Onde envio dúvidas? ＋</summary><p>Na seção Central de Ajuda.</p></details>
+</section>
+</main>
+
+<footer>
+  <a class="brand" href="#inicio">Ⓐ ABYSS.</a>
+  <span>BEYOND THE SURFACE — COMUNIDADE DISCORD</span>
+  <a href="#inicio">VOLTAR AO TOPO ↑</a>
+  <p>© <span id="year"></span> ABYSS. Feito para a comunidade.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
